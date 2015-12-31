@@ -7,7 +7,7 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Wingtips
+namespace Gathering
 {
     public partial class SiteMaster : MasterPage
     {

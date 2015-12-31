@@ -52,3 +52,6 @@
 G:\Visual Studio 2013\Projects\Gathering\Wingtips\obj\Debug\Wingtips.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2013\Projects\Gathering\Wingtips\obj\Debug\Wingtips.dll
 G:\Visual Studio 2013\Projects\Gathering\Wingtips\obj\Debug\Wingtips.pdb
+\\stu01fs\homes\21230351\Visual Studio 2013\Projects\Gathering-master\Wingtips\obj\Debug\Wingtips.csprojResolveAssemblyReference.cache
+\\stu01fs\homes\21230351\Visual Studio 2013\Projects\Gathering-master\Wingtips\obj\Debug\Wingtips.dll
+\\stu01fs\homes\21230351\Visual Studio 2013\Projects\Gathering-master\Wingtips\obj\Debug\Wingtips.pdb

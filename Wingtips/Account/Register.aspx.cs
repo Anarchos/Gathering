@@ -5,9 +5,9 @@ using System;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using Wingtips.Models;
+using Gathering.Models;
 
-namespace Wingtips.Account
+namespace Gathering.Account
 {
     public partial class Register : Page
     {

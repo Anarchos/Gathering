@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Wingtips {
+namespace Gathering {
     
     
     public partial class ViewSwitcher {

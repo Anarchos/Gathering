@@ -2,9 +2,9 @@
 using Microsoft.Owin.Security;
 using System;
 using System.Web;
-using Wingtips.Models;
+using Gathering.Models;
 
-namespace Wingtips.Account
+namespace Gathering.Account
 {
     public partial class RegisterExternalLogin : System.Web.UI.Page
     {

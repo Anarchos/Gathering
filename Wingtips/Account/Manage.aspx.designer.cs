@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Wingtips.Account {
+namespace Gathering.Account {
     
     
     public partial class Manage {

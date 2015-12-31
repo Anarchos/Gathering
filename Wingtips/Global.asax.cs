@@ -7,9 +7,9 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
-using Wingtips.Models;
+using Gathering.Models;
 
-namespace Wingtips
+namespace Gathering
 {
     public class Global : HttpApplication
     {

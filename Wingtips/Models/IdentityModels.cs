@@ -3,9 +3,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using System.Web;
 using System;
-using Wingtips.Models;
+using Gathering.Models;
 
-namespace Wingtips.Models
+namespace Gathering.Models
 {
     // You can add User data for the user by adding more properties to your User class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
@@ -30,7 +30,7 @@ namespace Wingtips.Models
     }
 }
 
-namespace Wingtips
+namespace Gathering
 {
     public static class IdentityHelper
     {

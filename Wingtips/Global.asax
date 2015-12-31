@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Wingtips.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Gathering.Global" Language="C#" %>

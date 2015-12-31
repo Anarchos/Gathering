@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys {
+namespace Gathering {
     
     
     public partial class _Default {

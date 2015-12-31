@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Web;
 
-namespace Wingtips.Account
+namespace Gathering.Account
 {
     public partial class OpenAuthProviders : System.Web.UI.UserControl
     {

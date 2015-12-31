@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Wingtips.Account {
+namespace Gathering.Account {
     
     
     public partial class Login {
@@ -72,6 +72,6 @@ namespace Wingtips.Account {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Wingtips.Account.OpenAuthProviders OpenAuthLogin;
+        protected global::Gathering.Account.OpenAuthProviders OpenAuthLogin;
     }
 }

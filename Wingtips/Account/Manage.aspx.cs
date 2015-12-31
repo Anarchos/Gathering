@@ -3,9 +3,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Wingtips.Models;
+using Gathering.Models;
 
-namespace Wingtips.Account
+namespace Gathering.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

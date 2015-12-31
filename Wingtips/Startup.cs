@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Wingtips.Startup))]
-namespace Wingtips
+[assembly: OwinStartupAttribute(typeof(Gathering.Startup))]
+namespace Gathering
 {
     public partial class Startup {
         public void Configuration(IAppBuilder app) {
