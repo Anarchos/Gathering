@@ -150,12 +150,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="8ball.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="BananaMania.aspx" />
+    <Content Include="BerryRush.aspx" />
+    <Content Include="BikeRivals.aspx" />
+    <Content Include="BlackSun.aspx" />
     <Content Include="Catalog\Images\boatbig.png" />
     <Content Include="Catalog\Images\boatpaper.png" />
     <Content Include="Catalog\Images\boatsail.png" />
@@ -202,9 +207,14 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-original.css" />
     <Content Include="Content\bootstrap-original.min.css" />
+    <Content Include="Content\custom.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Games.aspx" />
+    <Content Include="HotRodRacers.aspx" />
     <Content Include="logo.jpg" />
+    <Content Include="ManOrMonster.aspx" />
+    <Content Include="MiniPets.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -213,8 +223,11 @@
     <Content Include="Catalog\Images\Thumbs.db" />
     <Content Include="Catalog\Images\Thumbs\Thumbs.db" />
     <Content Include="Checkout\Web.config" />
+    <Content Include="Stickman.aspx" />
+    <Content Include="ZeroGravity.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ProductList.aspx" />
+    <Content Include="ProKickerFrenzy.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -264,6 +277,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="8ball.aspx.cs">
+      <DependentUpon>8ball.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="8ball.aspx.designer.cs">
+      <DependentUpon>8ball.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -309,6 +329,34 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="BananaMania.aspx.cs">
+      <DependentUpon>BananaMania.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BananaMania.aspx.designer.cs">
+      <DependentUpon>BananaMania.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BerryRush.aspx.cs">
+      <DependentUpon>BerryRush.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BerryRush.aspx.designer.cs">
+      <DependentUpon>BerryRush.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BikeRivals.aspx.cs">
+      <DependentUpon>BikeRivals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BikeRivals.aspx.designer.cs">
+      <DependentUpon>BikeRivals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlackSun.aspx.cs">
+      <DependentUpon>BlackSun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlackSun.aspx.designer.cs">
+      <DependentUpon>BlackSun.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Checkout\CheckoutCancel.aspx.cs">
       <DependentUpon>CheckoutCancel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -358,8 +406,36 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Games.aspx.cs">
+      <DependentUpon>Games.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Games.aspx.designer.cs">
+      <DependentUpon>Games.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HotRodRacers.aspx.cs">
+      <DependentUpon>HotRodRacers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotRodRacers.aspx.designer.cs">
+      <DependentUpon>HotRodRacers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManOrMonster.aspx.cs">
+      <DependentUpon>ManOrMonster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManOrMonster.aspx.designer.cs">
+      <DependentUpon>ManOrMonster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPets.aspx.cs">
+      <DependentUpon>MiniPets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiniPets.aspx.designer.cs">
+      <DependentUpon>MiniPets.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ForumDatabaseInitialiser.cs" />
@@ -374,6 +450,13 @@
     </Compile>
     <Compile Include="ProductList.aspx.designer.cs">
       <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProKickerFrenzy.aspx.cs">
+      <DependentUpon>ProKickerFrenzy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProKickerFrenzy.aspx.designer.cs">
+      <DependentUpon>ProKickerFrenzy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -391,12 +474,26 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="Stickman.aspx.cs">
+      <DependentUpon>Stickman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stickman.aspx.designer.cs">
+      <DependentUpon>Stickman.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ZeroGravity.aspx.cs">
+      <DependentUpon>ZeroGravity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZeroGravity.aspx.designer.cs">
+      <DependentUpon>ZeroGravity.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
